@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
 
   attr_accessor :name
@@ -31,6 +33,7 @@ class Owner
 
   def buy_fish(name)
     fish = Fish.new(name)
+    binding.pry
     @pets[:fishes] << fish
   end
 end
