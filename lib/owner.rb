@@ -1,3 +1,15 @@
 class Owner
-  # code goes here
+
+  def self.all
+    @@all
+  end
+
+  def self.count
+    @@all.count
+  end
+
+  def self.reset_all
+    @@all.clear
+  end
+
 end
