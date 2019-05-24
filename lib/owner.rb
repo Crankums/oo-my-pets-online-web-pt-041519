@@ -25,6 +25,7 @@ class Owner
     "I am a #{species}."
   end
 
-  def pets
+  def pets(pets)
+    @pets = {:cats => [], :dogs => [], :cats => []}    
   end
 end
