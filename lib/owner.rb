@@ -1,8 +1,8 @@
 require 'pry'
 
 class Owner
-
-  attr_accessor :name
+  
+  attr_accessor :name, :pets
   attr_reader :species
   @@all = []
 
@@ -34,6 +34,6 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     #binding.pry
-    @pets[:fishes] << fish
+    @pets[:fishes]=fish
   end
 end
