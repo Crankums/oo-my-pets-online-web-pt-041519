@@ -2,6 +2,14 @@ class Owner
 
   @@all = []
 
+  def initialize(species)
+    @species = species
+  end
+    
+    def each(&block)
+      
+    end
+
   def self.all
     @@all
   end
