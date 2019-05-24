@@ -6,10 +6,6 @@ class Owner
     @species = species
   end
 
-    def each(&block)
-
-    end
-
   def self.all
     @@all
   end
